@@ -1,0 +1,11 @@
+<mvc:View controllerName="fk.coc.s3cocapp.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Label class="sapUiTinyMarginTop" text="Please click the Button to upload the Certificate of Compliance"/>
+            <Label width="1rem"/>
+            <Button type="Emphasized" text="Click to Upload" press="onPress"/>
+        </content>
+    </Page>
+</mvc:View>
